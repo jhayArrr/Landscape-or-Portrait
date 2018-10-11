@@ -1,4 +1,4 @@
-function isLandscape (window.innerheight, window.innerwidth) {
+function isLandscape (,) {
   if (window.innerheight == window.innerwidth) return 'Square'; //must be first, return will not allow rest of code to run
   return (window.innerwidth > window.innerheight) ? 'Landscape' : 'Portrait'; //returns the value of the expression
 }

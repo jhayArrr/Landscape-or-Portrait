@@ -3,7 +3,7 @@ function isLandscape (___, ___) {
   return (window.innerwidth > window.innerheight) ? 'Landscape' : 'Portrait'; //returns the value of the expression
 }
 
-let window.innerwidth= 4;
-let window.innerheight = 3;
+let width= 4;
+let height = 3;
 
 console.log("This display geometry is", isLandscape (window.innerwidth, window.innerheight)); //Difference between calling functions with arguements and sending to parameter's, local variables

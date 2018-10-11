@@ -1,7 +1,7 @@
-function isLandscape ( height > __); {
+function isLandscape ( height > width);
   if (height == width) return 'Square'; //must be first, return will not allow rest of code to run
   return (width > height) ? 'Landscape' : 'Portrait'; //returns the value of the expression
-}
+
 
 let width = 800;
 let height = 800;

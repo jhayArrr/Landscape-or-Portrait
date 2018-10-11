@@ -1,7 +1,6 @@
-function isPortrait() {
-  if (window.innerHeight > window.innerWidth) {
-    alert("You are now in portrait");
-  } else {
-    alert("You are now in landscape");
-  }
+function isLandscape (window.innerheight, window.innerwidth) {
+  if (window.innerheight == window.innerwidth) return 'Square'; //must be first, return will not allow rest of code to run
+  return (window.innerwidth > window.innerheight) ? 'Landscape' : 'Portrait'; //returns the value of the expression
 }
+
+console.log("This display geometry is", isLandscape (width, height)); //Difference between calling functions with arguements and sending to parameter's, local variables
